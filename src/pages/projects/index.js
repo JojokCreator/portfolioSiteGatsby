@@ -14,7 +14,7 @@ export default function Projects({ data }) {
         <h2>Projects</h2>
         <div className={styles.projects}>
           {projects.map(project => (
-            <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
+            <Link className={styles.link} to={"/projects/" + project.frontmatter.slug} key={project.id}>
               <div>
               <GatsbyImage image={project.frontmatter.thumb.childImageSharp.gatsbyImageData} />
                 <h3>{project.frontmatter.title}</h3>
@@ -23,7 +23,8 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
-        <p>Like what you see? Email me at {contact} for a quote</p>
+        <br></br>
+        <p>Like what you see? Email me at {contact}</p>
       </div>
     </Layout>
   )
