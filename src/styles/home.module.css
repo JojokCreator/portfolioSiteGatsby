@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.header h2 {
+  font-size: 4em;
+}
+.header h3 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  background: var(--main-bg-color);
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+/* Page 1 */
+.page1__scroll {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  padding: 40px;
+  background: none;
+}
+
+.page1__welcome {
+  font-size: 6rem;
+  color: black;
+  background: var(--main-light-color);
+  padding: 8px 24px;
+  border-radius: 16px;
+  font-family: "Titillium Web";
+  opacity: 80%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page1__arrow {
+  width: 20%;
+  opacity: 80%;
+}
+/* Page 2 */
+.page2__text {
+  width: 35vw;
+}
+
+.page2__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page3__carddark {
+  box-sizing: border-box;
+  flex: 250px;
+  margin: 1rem;
+  padding: 1rem;
+  align-self: flex-start;
+  background: var(--main-bg-color);
+  border-radius: 30px;
+}
+.page4__heading {
+  width: 100vw;
+  background: none;
+  margin-left: 20px;
+}
+
+.page4__cardholder {
+  display: flex;
+  flex-wrap: wrap;
+  background: none;
+  width: 80%;
+}
+
+.page4__link {
+  box-sizing: border-box;
+  flex: 250px;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.page4__linkImg {
+  max-width: 10vw;
+  height: auto;
+  border-radius: 30px;
+}
+
+.page4__linkImg:hover {
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.portfolio {
+  margin-top: 40px;
+  font-size: 2em;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+}
+.portfolio:hover {
+  border-color: white;
+}
+.parallax {
+  background: none;
+}

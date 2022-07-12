@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+    /* CSS Variables can be changed here */
+    --main-bg-color: #1C1B29;
+    --main-text-color: #9FB4FF;
+    --main-light-color: #cfd9fc;
+}
+
+html {
+    /* This sets the default font size that the others are based on*/
+    background-color: var(--main-bg-color);
+}
+
+* {
+    /* Sets the borders.margins etc for the backgrounds */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto Slab;
+    color: var(--main-text-color);
+    overflow-x: hidden;
+}
+
+/* Sets Up all the different pages on the main page */
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#page1 {
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#page2 {
+    width: 90%;
+    padding: 2rem;
+    margin-bottom: 50px;
+}
+
+#page3 {
+    background-image: url("../images/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2rem;
+}
+
+#page4 {
+    width: 100vw;
+    padding: 2rem;
+}
+
+/* Used globally */
+h1 {
+    font-style: normal;
+    background: none;
+    flex-direction: start;
+    margin-left: 40px;
+    
+}
+h2 {
+    font-style: normal;
+    font-size: 3.75rem;
+    padding: 20px;
+    background: none;
+    flex-direction: start;
+    margin-left: 40px;
+}
+
+h3 {
+    font-style: normal;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.375rem;
+    padding: 20px;
+    background: none;
+}
+
+.p-dark {
+    color: var(--main-bg-color);
+}
+
+ul {
+    padding: 20px;
+    font-size: 1.375rem;
+    margin: 20px;
+}
+
+li {
+    padding: 20px;
+    font-size: 1.25rem;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px auto;
+
+}
+nav .links {
+    display: inline-block;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 1.25em;
+}
+nav a {
+  display: inline-block;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+  margin-right: 20px;
+
+
+}
+nav a:hover {
+  border-color: white;
+}
+footer p{
+  text-align: center;
+  color: (var)--main-text-color;
+  margin: 40px auto;
+}
+
+
