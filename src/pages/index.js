@@ -4,13 +4,14 @@ import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import { Parallax } from 'react-scroll-parallax'
+import ParticlesBg from 'particles-bg'
 
 export default function Home({ data }) {
 
   return ( 
     <Layout>
       <div id="page1" className="page">
-      <Parallax speed={-10}>
+      <Parallax speed={-20}>
           <h1 className={styles.page1__welcome}>Welcome</h1>
           <div className={styles.page1__scroll}>
             <StaticImage className={styles.page1__arrow} src="../images/arrow.png" alt='arrow' />
@@ -18,7 +19,8 @@ export default function Home({ data }) {
           </div>
           </Parallax>
           </div>
-      <div id="page2">
+      <div id="page2" style={{ position: "relative" }}>
+      <ParticlesBg type="cobweb" bg={{ position: "absolute" }} />
         <h2>Hello</h2>
         <div className={styles.page2__container}>
           <h3 className={styles.page2__text}>
