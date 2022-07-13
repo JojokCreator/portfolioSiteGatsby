@@ -4,12 +4,15 @@ import * as styles from "../styles/home.module.css"
 import { Parallax, useParallax } from "react-scroll-parallax"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import ParticlesBg from 'particles-bg'
+
 
 export default function Home({ data }) {
+
   const parallax = useParallax<HTMLDivElement>({
     rotateY: [0, 360],
   });
-  return (
+  return ( 
     <Layout>
       <div id="page1" className="page">
         <Parallax className={styles.parallax} speed={50}>
@@ -21,13 +24,18 @@ export default function Home({ data }) {
         </Parallax>
       </div>
       <div id="page2">
+      <ParticlesBg type="cobweb" color={'#cfd9fc'} 
+      bg={{ 
+      position: "absolute",
+      height: '600px',
+      }} />
         <h2>Hello</h2>
         <div className={styles.page2__container}>
-          <p className={styles.page2__text}>
-            "I am Joe, from the UK. I'm a freelance developer who designs websites from simple static pages to full stack sites with databases. You can see the stack I have used below but I am more than happy jumping to a language that I haven't used before."
-          </p>
+          <h3 className={styles.page2__text}>
+            "I am Joe, from the UK. I design websites from simple static pages to full stack sites with databases.
+          </h3>
         </div>
-      </div>
+      </div> 
       <div id="page3" className="page">
         <div className={styles.page4__heading}>
               <h2>Technologies</h2>

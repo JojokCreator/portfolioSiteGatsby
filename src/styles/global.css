@@ -38,12 +38,12 @@ html {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    
 }
 
 #page2 {
     width: 90%;
-    padding: 2rem;
-    margin-bottom: 50px;
+    height: 80vh;
 }
 
 #page3 {

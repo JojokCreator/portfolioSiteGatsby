@@ -47,13 +47,14 @@
 }
 /* Page 2 */
 .page2__text {
-  width: 35vw;
+  width: 50vw;
 }
 
 .page2__container {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 .page3__carddark {
   box-sizing: border-box;
