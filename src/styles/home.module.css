@@ -24,7 +24,7 @@
 .page1__scroll {
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 40px;
   background: none;
 }
@@ -33,12 +33,14 @@
   font-size: 4rem;
   color: black;
   background: var(--main-light-color);
-  padding: 8px 24px;
+  padding: 8px 12px;
   border-radius: 16px;
   font-family: "Titillium Web";
   opacity: 80%;
   text-transform: uppercase;
   text-align: center;
+  width: 50vw;
+  min-width: 360px;
 }
 
 .page1__arrow {
@@ -47,14 +49,13 @@
 }
 /* Page 2 */
 .page2__text {
-  width: 50vw;
+  width: 80vw;
+  margin-left: 50px;
+  font-size: 3vw;
 }
 
 .page2__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: -1;
+  padding: 10% 0;
 }
 .page3__carddark {
   box-sizing: border-box;

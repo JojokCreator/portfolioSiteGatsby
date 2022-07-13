@@ -43,7 +43,7 @@ html {
 
 #page2 {
     width: 90%;
-    height: 80vh;
+    min-height: 50vw;
 }
 
 #page3 {
