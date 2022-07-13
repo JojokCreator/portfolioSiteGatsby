@@ -22,6 +22,7 @@ export default function Home({ data }) {
             <h2>Scroll gatsby buildDown</h2>
           </div>
         {/* </Parallax> */}
+        {/* ref={parallax.ref} for the div */}
       </div>
       <div id="page2">
       {/* <ParticlesBg type="cobweb" color={'#cfd9fc'} 
@@ -40,7 +41,7 @@ export default function Home({ data }) {
         <div className={styles.page4__heading}>
               <h2>Technologies</h2>
             </div>
-            <div ref={parallax.ref}  class={styles.page4__cardholder}>
+            <div class={styles.page4__cardholder}>
               <div class={styles.page3__carddark}>
                 <h3>Front-End</h3>
                 <ul>
