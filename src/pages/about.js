@@ -12,7 +12,7 @@ export default function about() {
             <p className={styles.text}>After spending the majority of my life in hospitality and resort management. I am looking to change my career path towards using my passion and knowledge in website design and coding.
                 I am currently enrolled in a 16-week remote intensive web development course learning the fundamentals of programming, how to work in a high-performance tech team, and you will be specialising in full-stack JavaScript development via https://www.schoolofcode.co.uk/.
             </p>
-            <StaticImage className={styles.me} src='..\images\me.jpg' alt="me"/> 
+            <StaticImage className={styles.me} src="../images/me.jpg" alt="me"/> 
         </div>
         <ul>
             <h3>Skills</h3>
