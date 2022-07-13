@@ -3,19 +3,21 @@ import Layout from "./components/Layout"
 import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-
+import { Parallax } from 'react-scroll-parallax'
 
 export default function Home({ data }) {
 
   return ( 
     <Layout>
       <div id="page1" className="page">
+      <Parallax speed={-10}>
           <h1 className={styles.page1__welcome}>Welcome</h1>
           <div className={styles.page1__scroll}>
             <StaticImage className={styles.page1__arrow} src="../images/arrow.png" alt='arrow' />
             <h2>Scroll Down</h2>
           </div>
-      </div>
+          </Parallax>
+          </div>
       <div id="page2">
         <h2>Hello</h2>
         <div className={styles.page2__container}>
@@ -24,6 +26,7 @@ export default function Home({ data }) {
           </h3>
         </div>
       </div> 
+        
       <div id="page3" className="page">
         <div className={styles.page4__heading}>
               <h2>Technologies</h2>
