@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "./components/Layout"
 import * as styles from "../styles/home.module.css"
-import { Parallax, useParallax } from "react-scroll-parallax"
+// import { Parallax, useParallax } from "react-scroll-parallax"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import ParticlesBg from 'particles-bg'
@@ -9,19 +9,19 @@ import ParticlesBg from 'particles-bg'
 
 export default function Home({ data }) {
 
-  const parallax = useParallax<HTMLDivElement>({
-    rotateY: [0, 360],
-  });
+  // const parallax = useParallax<HTMLDivElement>({
+  //   rotateY: [0, 360],
+  // });
   return ( 
     <Layout>
       <div id="page1" className="page">
-        <Parallax className={styles.parallax} speed={50}>
+        {/* <Parallax className={styles.parallax} speed={50}> */}
           <h1 className={styles.page1__welcome}>Welcome</h1>
           <div className={styles.page1__scroll}>
             <StaticImage className={styles.page1__arrow} src="../images/arrow.png" alt='arrow' />
-            <h2>Scroll Down</h2>
+            <h2>Scroll gatsby buildDown</h2>
           </div>
-        </Parallax>
+        {/* </Parallax> */}
       </div>
       <div id="page2">
       <ParticlesBg type="cobweb" color={'#cfd9fc'} 
