@@ -4,7 +4,7 @@ import * as styles from "../styles/home.module.css"
 // import { Parallax, useParallax } from "react-scroll-parallax"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-import ParticlesBg from 'particles-bg'
+// import ParticlesBg from 'particles-bg'
 
 
 export default function Home({ data }) {
@@ -24,11 +24,11 @@ export default function Home({ data }) {
         {/* </Parallax> */}
       </div>
       <div id="page2">
-      <ParticlesBg type="cobweb" color={'#cfd9fc'} 
+      {/* <ParticlesBg type="cobweb" color={'#cfd9fc'} 
       bg={{ 
       position: "absolute",
       height: '600px',
-      }} />
+      }} /> */}
         <h2>Hello</h2>
         <div className={styles.page2__container}>
           <h3 className={styles.page2__text}>
