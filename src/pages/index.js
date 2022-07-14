@@ -4,6 +4,7 @@ import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import { Parallax } from "react-scroll-parallax"
+import ParticlesBg from 'particles-bg'
 
 export default function Home({ data }) {
   return (
@@ -22,6 +23,7 @@ export default function Home({ data }) {
         </Parallax>
       </div>
         <div id="page2" className={styles.page2__container}>
+        <ParticlesBg type="cobweb" bg={{position: "absolute"}} />
           <h2>Hello</h2>
           <h3 className={styles.page2__text}>
             "I am Joe, from the UK. I design websites from simple static pages
