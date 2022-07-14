@@ -7,6 +7,23 @@ import { Parallax } from "react-scroll-parallax"
 import ParticlesBg from 'particles-bg'
 
 export default function Home({ data }) {
+
+  let config = {
+    num: [4, 7],
+    rps: 0.1,
+    radius: [5, 40],
+    life: [1.5, 3],
+    v: [2, 3],
+    tha: [-50, 50],
+    alpha: [0.6, 0],
+    scale: [.1, 0.9],
+    //body: icon,
+    position: "all",
+    //color: ["random", "#cfd9fc],
+    cross: "dead",
+    random: 10
+  };
+
   return (
     <Layout>
       <div id="page1" className="page">
@@ -23,7 +40,9 @@ export default function Home({ data }) {
         </Parallax>
       </div>
         <div id="page2" className={styles.page2__container}>
-        {typeof window !== "undefined" ? <ParticlesBg type="cobweb" bg={{position: "absolute"}} />: ""}
+        {typeof window !== "undefined" ? 
+        <ParticlesBg config={config} color="#cfd9fc" type="custom" bg={{position: "absolute", height: "50vh"}} 
+        />: ""}
           <h2>Hello</h2>
           <h3 className={styles.page2__text}>
             "I am Joe, from the UK. I design websites from simple static pages

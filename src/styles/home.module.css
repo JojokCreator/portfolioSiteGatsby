@@ -56,7 +56,11 @@
 
 .page2__container {
   padding: 10% 0;
+  position: "absolute";
+  height: 30vh;
+  overflow: hidden
 }
+
 .page3__carddark {
   box-sizing: border-box;
   flex: 250px;

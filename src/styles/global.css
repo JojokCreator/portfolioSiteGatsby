@@ -7,6 +7,9 @@
     --main-text-color: #9FB4FF;
     --main-light-color: #cfd9fc;
 }
+.particles-bg-canvas-self{
+    top: 945px;
+}
 
 html {
     /* This sets the default font size that the others are based on*/
