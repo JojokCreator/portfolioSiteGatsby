@@ -23,7 +23,7 @@ export default function Home({ data }) {
         </Parallax>
       </div>
         <div id="page2" className={styles.page2__container}>
-        <ParticlesBg type="cobweb" bg={{position: "absolute"}} />
+        {typeof window !== "undefined" ? <ParticlesBg type="cobweb" bg={{position: "absolute"}} />: ""}
           <h2>Hello</h2>
           <h3 className={styles.page2__text}>
             "I am Joe, from the UK. I design websites from simple static pages
