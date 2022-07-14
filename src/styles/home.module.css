@@ -46,6 +46,7 @@
 .page1__arrow {
   width: 20%;
   opacity: 80%;
+  transform: rotate(90deg);
 }
 /* Page 2 */
 .page2__text {
