@@ -1,13 +1,31 @@
 ---
 title: Crypto Site
-stack: Next JS
-slug: trainer-trainer1
+stack: NextJS, CSS
+slug: crypto-site
 thumb: ../images/thumbs/cryptosite.jpg
 featuredImg: ../images/featured/cryptosite.jpg
 ---
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+### Designing a business landing page project - UI/UX skills workshop week 3 School of Code Bootcamp
 
-### Lorem ninja ipsum dolor
+## Getting Started 
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+Open the page [Here](https://jojokcreator.github.io/Crypto-Landing-Page) or clone/download and open the index.html in a web browser.
+
+## What we did - planning
+
+User stories and creating [user personas pdf](https://github.com/JojokCreator/Crypto-Landing-Page/blob/main/user-persona.pdf)
+
+[User journey flow diagram](https://github.com/JojokCreator/Crypto-Landing-Page/blob/main/UserFlow.drawio)
+
+Low- and high-fidelity wireframes (using tools like [Miro](https://miro.com/app/) and/or [Figma](https://www.figma.com/))
+
+[Lo-Fi Wireframe pdf](https://github.com/JojokCreator/Crypto-Landing-Page/blob/main/miro-lowfid-mockup.pdf)
+
+[Site View](https://github.com/JojokCreator/Crypto-Landing-Page/blob/main/cryptosite.png)
+
+
+## Implimentation
+Although we were limited on time ( the whole project took one day) we did manage to get some sort of a MVP [Here](https://jojokcreator.github.io/Crypto-Landing-Page) the page initially looks ok but is not responsive to smaller screen types and needs more time. 
+
+I initially build the page in Html and CSS but have recently re-done the page with next JS. I added a few pages and used an API to grab information about a few currencies in the coins page.

@@ -1,6 +1,6 @@
 ---
 title: Bootcamper Social
-stack: POSTGRES Backend, Express REST AP & REACT & CSS Frontend
+stack: ReactJS, Express, PostgreSQL, CSS
 slug: Bootcamper Social
 thumb: ../images/thumbs/bootcampersocial.jpg
 featuredImg: ../images/featured/bootcampersocial.jpg
@@ -18,10 +18,4 @@ Working Features
 -Create event
 -Logout (By clicking profile icon)
 -Expand events on main page
--Filters work with execption of (Distance)
-
-Features That Need Work:
--Cannot edit profiles
--Can't use search bar for events
--Uploading of images , for either profile or logo
--Converting post code into cordinates and map pinning
+-Filters work 

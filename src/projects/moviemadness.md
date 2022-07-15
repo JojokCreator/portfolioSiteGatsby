@@ -1,6 +1,6 @@
 ---
 title: Movie Madness
-stack: React, Styled with Tailwind CSS
+stack: ReactJS, Tailwind-CSS
 slug: moviemadness
 thumb: ../images/thumbs/moviemadness.jpg
 featuredImg: ../images/featured/moviemadness.jpg

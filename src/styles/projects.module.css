@@ -2,6 +2,7 @@
 .portfolio {
   text-align: center;
   padding: 20px;
+  overflow: hidden;
 }
 .portfolio > h2 {
   font-size: 3em;
@@ -15,10 +16,18 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 80px;
+  overflow: hidden;
+
 }
 .link {
   text-decoration: none;
+  background-color: #2a283d;
+  border-radius: 30px;
+  padding: 20px;
 }  
+.link:hover {
+  opacity: 80%;
+}
 
 @media only screen and (min-width: 600px) {
   .projects {
@@ -37,5 +46,9 @@
 }
 .projects p {
   color: #ccc;
-  margin-top: 4px;
+  word-spacing: 100vw;
+  margin: auto;
+}
+.image {
+  border-radius: 30px;
 }

@@ -16,7 +16,7 @@ export default function Projects({ data }) {
           {projects.map(project => (
             <Link className={styles.link} to={"/projects/" + project.frontmatter.slug} key={project.id}>
               <div>
-              <GatsbyImage image={project.frontmatter.thumb.childImageSharp.gatsbyImageData} />
+              <GatsbyImage className={styles.image} image={project.frontmatter.thumb.childImageSharp.gatsbyImageData} alt={project.frontmatter.title}/>
                 <h3>{project.frontmatter.title}</h3>
                 <p> {project.frontmatter.stack}</p>
               </div>
