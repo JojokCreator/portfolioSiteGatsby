@@ -26,6 +26,9 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    font-size: 16px;
+}
 /* Sets Up all the different pages on the main page */
 .page {
     display: flex;
@@ -71,7 +74,7 @@ h1 {
 }
 h2 {
     font-style: normal;
-    font-size: 3.75rem;
+    font-size: 6.0vw;
     padding: 20px;
     background: none;
     flex-direction: start;
@@ -80,7 +83,7 @@ h2 {
 
 h3 {
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 5.0vw;
     padding: 20px;
 }
 
