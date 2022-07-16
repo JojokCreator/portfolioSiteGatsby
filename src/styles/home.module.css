@@ -52,7 +52,7 @@
 .page2__text {
   width: 80vw;
   margin-left: 50px;
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 
 .page2__container {
@@ -66,7 +66,6 @@
   box-sizing: border-box;
   flex: 250px;
   margin: 1rem;
-  padding: 1rem;
   align-self: flex-start;
   background: var(--main-bg-color);
   border-radius: 30px;
@@ -105,12 +104,19 @@
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
+
+@media only screen and (max-width: 770px) {
+  .page4__linkImg {
+    max-width: 30vw;
+  }
+}
 .portfolio {
   margin-top: 40px;
   font-size: 2em;
   text-decoration: none;
   border-bottom: 3px solid transparent;
   text-decoration: none;
+  text-align: center;
 }
 .portfolio:hover {
   border-color: white;
