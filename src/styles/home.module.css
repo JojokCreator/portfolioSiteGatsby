@@ -57,6 +57,7 @@
   display: flex;
   flex-wrap: wrap;
   background: none;
+  width: 80%;
 }
 
 .link {
