@@ -86,6 +86,9 @@
   .linkImg {
     max-width: 30vw;
   }
+  .cardholder {
+    width: 100%;
+  }
 }
 .portfolio {
   margin-top: 40px;
