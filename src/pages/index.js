@@ -4,64 +4,37 @@ import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import { Parallax } from "react-scroll-parallax"
-import ParticlesBg from "particles-bg"
 
-export default function Home({ data }) {
-  let config = {
-    num: [4, 7],
-    rps: 0.1,
-    radius: [5, 40],
-    life: [1.5, 3],
-    v: [2, 3],
-    tha: [-50, 50],
-    alpha: [0.6, 0],
-    scale: [0.1, 0.9],
-    //body: icon,
-    position: "all",
-    //color: ["random", "#cfd9fc],
-    cross: "dead",
-    random: 10,
-  }
-
+export default function Home({}) {
   return (
     <Layout>
-      <div id="page1" className="page">
+      <div id="section1" className="page">
         <Parallax speed={-20}>
-          <h1 className={styles.page1__welcome}>Welcome</h1>
-          <div className={styles.page1__scroll}>
+          <h1 className={styles.welcome}>Welcome</h1>
+          <div className={styles.scroll}>
             <StaticImage
-              className={styles.page1__arrow}
+              className={styles.arrow}
               src="../images/arrow.png"
               alt="arrow"
             />
-            <h2>Scroll Down</h2>
+            <h3>Scroll Down</h3>
           </div>
         </Parallax>
       </div>
-      <div id="page2" className={styles.page2__container}>
-        {/* {typeof window !== "undefined" ? (
-          <ParticlesBg
-            config={config}
-            color="#cfd9fc"
-            type="custom"
-            bg={{ position: "absolute", height: "50vh" }}
-          />
-        ) : (
-          ""
-        )} */}
+      <div id="section2" className={styles.container}>
         <h2>Hello</h2>
-        <h3 className={styles.page2__text}>
-          "I am Joe, from the UK. I like to build the web from simple static
+        <h3 className={styles.text}>
+          "I am Joe, from the UK. I build the web. From simple static
           pages to full stack sites with databases.
         </h3>
       </div>
 
-      <div id="page3" className="page">
-        <div className={styles.page4__heading}>
+      <div id="section3" className="page">
+        <div className={styles.heading}>
           <h2>Technologies</h2>
         </div>
-        <div class={styles.page4__cardholder}>
-          <div class={styles.page3__carddark}>
+        <div class={styles.cardholder}>
+          <div class={styles.card}>
             <h3>Front-End</h3>
             <ul>
               <li>React</li>
@@ -69,7 +42,7 @@ export default function Home({ data }) {
               <li>JavaScript</li>
             </ul>
           </div>
-          <div class={styles.page3__carddark}>
+          <div class={styles.card}>
             <h3>Back-End</h3>
             <ul>
               <li>Node.js</li>
@@ -77,7 +50,7 @@ export default function Home({ data }) {
               <li>Postgres & Mongo DB</li>
             </ul>
           </div>
-          <div class={styles.page3__carddark}>
+          <div class={styles.card}>
             <h3>UI/UX Design</h3>
             <ul>
               <li>Figma</li>
@@ -87,33 +60,33 @@ export default function Home({ data }) {
           </div>
         </div>
       </div>
-      <div id="page4" class="page">
-        <div class={styles.page4__heading}>
+      <div id="section4" class="page">
+        <div class={styles.heading}>
           <h2>Links</h2>
         </div>
-        <div class={styles.page4__cardholder}>
-          <div class={styles.page4__link}>
+        <div class={styles.cardholder}>
+          <div class={styles.link}>
             <a href="https://github.com/JojokCreator">
               <StaticImage
-                className={styles.page4__linkImg}
+                className={styles.linkImg}
                 src="../images/github.png"
                 alt="github"
               />
             </a>
           </div>
-          <div class={styles.page4__link}>
+          <div class={styles.link}>
             <a href="https://www.linkedin.com/in/joe-klakus-40bb9820b/">
               <StaticImage
-                className={styles.page4__linkImg}
+                className={styles.linkImg}
                 src="../images/linked.png"
                 alt="linkedin"
               />
             </a>
           </div>
-          <div class={styles.page4__link}>
+          <div class={styles.link}>
             <a href="joeyk2k@gmail.com">
               <StaticImage
-                className={styles.page4__linkImg}
+                className={styles.linkImg}
                 src="../images/email.png"
                 alt="email"
               />

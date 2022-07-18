@@ -1,89 +1,66 @@
-.header {
+
+/* Page 1 */
+.scroll {
+  width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-}
-.header h2 {
-  font-size: 4em;
-}
-.header h3 {
-  font-size: 3em;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-.btn {
-  display: inline-block;
-  background: var(--main-bg-color);
-  padding: 10px 16px;
-  border-radius: 10px;
-  margin-top: 20px;
-  font-weight: 500;
-}
-/* Page 1 */
-.page1__scroll {
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  padding: 40px;
-  background: none;
 }
 
-.page1__welcome {
-  font-size: 4rem;
-  color: black;
+.welcome {
+  color: var(--main-bg-color);
   background: var(--main-light-color);
-  padding: 8px 12px;
   border-radius: 16px;
-  font-family: "Titillium Web";
+  font-family: var(--ff-welcome);
+  padding: 0.1em;
   opacity: 80%;
   text-transform: uppercase;
   text-align: center;
-  width: 50vw;
   min-width: 360px;
 }
 
-.page1__arrow {
+.arrow {
   width: 20%;
   opacity: 80%;
   transform: rotate(90deg);
 }
 /* Page 2 */
-.page2__text {
+.text {
   width: 80vw;
-  margin-left: 50px;
-  font-size: 3.5vw;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
-.page2__container {
+.container {
   padding: 10% 0;
   position: "absolute";
-  height: 30vh;
   overflow: hidden
 }
 
-.page3__carddark {
+.card {
   box-sizing: border-box;
   flex: 250px;
   margin: 1rem;
   align-self: flex-start;
   background: var(--main-bg-color);
   border-radius: 30px;
+  text-align: center;
 }
-.page4__heading {
+.heading {
   width: 100vw;
   background: none;
   margin-left: 20px;
 }
 
-.page4__cardholder {
+.cardholder {
   display: flex;
   flex-wrap: wrap;
   background: none;
   width: 80%;
 }
 
-.page4__link {
+.link {
   box-sizing: border-box;
   flex: 250px;
   margin: 1rem;
@@ -91,13 +68,13 @@
   text-align: center;
 }
 
-.page4__linkImg {
+.linkImg {
   max-width: 10vw;
   height: auto;
   border-radius: 30px;
 }
 
-.page4__linkImg:hover {
+.linkImg:hover {
   -webkit-transform: translateY(-1px);
   transform: translateY(-1px);
   -moz-box-shadow: 0 0 10px #ccc;
@@ -106,13 +83,13 @@
 }
 
 @media only screen and (max-width: 770px) {
-  .page4__linkImg {
+  .linkImg {
     max-width: 30vw;
   }
 }
 .portfolio {
   margin-top: 40px;
-  font-size: 2em;
+  font-size: 2rem;
   text-decoration: none;
   border-bottom: 3px solid transparent;
   text-decoration: none;
