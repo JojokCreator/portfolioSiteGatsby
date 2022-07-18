@@ -4,6 +4,7 @@ import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import { Parallax } from "react-scroll-parallax"
+import { SiExpress, SiFigma, SiGatsby, SiJavascript, SiMiro, SiMongodb, SiNodedotjs, SiPostgresql, SiReact, SiTypescript } from './../../node_modules/react-icons/si/index.esm';
 
 export default function Home({}) {
   return (
@@ -37,24 +38,25 @@ export default function Home({}) {
           <div class={styles.card}>
             <h3>Front-End</h3>
             <ul>
-              <li>React</li>
-              <li>Gatsby</li>
-              <li>JavaScript</li>
+              <li>React <SiReact /></li>
+              <li>Gatsby <SiGatsby/></li>
+              <li>JavaScript <SiJavascript/></li>
+              <li>TypeScript <SiTypescript/></li>
             </ul>
           </div>
           <div class={styles.card}>
             <h3>Back-End</h3>
             <ul>
-              <li>Node.js</li>
-              <li>Express REST API's</li>
-              <li>Postgres & Mongo DB</li>
+              <li>Node.js <SiNodedotjs/></li>
+              <li>Express REST API's <SiExpress/></li>
+              <li>Postgres <SiPostgresql/> & Mongo DB <SiMongodb/></li>
             </ul>
           </div>
           <div class={styles.card}>
             <h3>UI/UX Design</h3>
             <ul>
-              <li>Figma</li>
-              <li>Miro</li>
+              <li>Figma <SiFigma/></li>
+              <li>Miro <SiMiro/></li>
               <li>Draw.io</li>
             </ul>
           </div>

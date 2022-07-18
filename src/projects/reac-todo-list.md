@@ -4,20 +4,19 @@ stack: ReactJS, SematicUI
 slug: the-dojo-coffee-house3
 thumb: ../images/thumbs/todolistblog.jpg
 featuredImg: ../images/featured/todolistfeatured.jpg
+github: "https://github.com/JojokCreator/Todo-List-in-React"
+live_version: "https://react-todolist-joe.netlify.app/"
 ---
 
-# Simple Todo List - Built with React.
+A simple todo list built in React.JS as part of a project. I worked with another bootcamper using pair programming and Agile working methods to produce this in a day.
 
-Check out a live [version here](https://idyllic-sunflower-5bee4a.netlify.app/).
+## Features
+<ul>
+<li>Ability to add ne todos to the list</li>
+<li>Toggle the todo as done</li>
+<li>Filter the todo's by pending, done or show all</li>
+<li>Delete a todo</li>
+</ul>
 
-## Available Scripts
+The styling is done using Semantic UI but could still do with a little work on the aesthetics.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Requirements
-The app should let users be able to add a todo to the list and delete items off of the list displayed on the view.
