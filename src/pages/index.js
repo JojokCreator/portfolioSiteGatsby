@@ -49,7 +49,8 @@ export default function Home({}) {
             <ul>
               <li>Node.js <SiNodedotjs/></li>
               <li>Express REST API's <SiExpress/></li>
-              <li>Postgres <SiPostgresql/> & Mongo DB <SiMongodb/></li>
+              <li>Postgres <SiPostgresql/> </li>
+              <li>Mongo DB <SiMongodb/></li>
             </ul>
           </div>
           <div class={styles.card}>
