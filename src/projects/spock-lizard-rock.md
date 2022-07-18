@@ -1,24 +1,23 @@
 ---
-title: Spock, Lizard, Rock
-stack: Html, Javascript
-slug: spock-lizard-rock
-thumb: ../images/thumbs/spockthumb.jpg
-featuredImg: ../images/featured/spockfeatured.jpg
+title: React Weather App
+stack: ReactJS, Javascript, Mantine UI
+slug: react-weather-app
+thumb: ../images/thumbs/weatherthumb.jpg
+featuredImg: ../images/featured/weatherfeatured.jpg
+github: "https://github.com/JojokCreator/React-Weather-App---Typescript/"
+live_version: "https://react-weather-typescript.netlify.app/"
 ---
 
-##Getting started 
-Open the page <a href="https://jojokcreator.github.io/RockPaperScissorsLizardSpock/">Here<a/> or clone/download and open the index.html in a web browser.
+As part of School of Code I built a weather checker app using TypeScript and React with another bootcamper using pair programming. We planned the app here [Here](https://github.com/JojokCreator/React-Weather-App---Typescript/blob/main/plan.drawio) and broke the day into mini-sprints/chunks and collectively agree on what work can be completed during each sprint.
 
-## Week 1 School Of Code Project.
-A simple game built in JavaScript that started out using prompts and alerts and basic logic and functions to return a score to another alert. 
+### Code and functionality
 
-We used event listeners to change innerText on the Dom to make the game work in the browser and be a little easier to use.
+- The app is written in TypeScript.
+- The user is able to input the name of a city and have weather information about that city added to the page. 
+- We added a dark mode toggle that uses useContext to wrap the app and change CSS styles globally.
 
-We added the extra options "Lizard and Spock" to make the game a little more interesting. 
+## Additional plans
 
-Still need to tidy up the CSS layout of the game but it does function.
+- UI/component libraries - I have added a little Mantine-UI but still needs more work.
 
-## Used
-HTML
-CSS
-Javascript
+- Tests
