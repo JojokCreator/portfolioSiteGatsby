@@ -14,7 +14,7 @@ export default function ProjectDetails({ data }) {
             <h1>{title}</h1>
             <h3>{stack}</h3>
             <div className={styles.featured}>
-            <GatsbyImage image={featuredImg.childImageSharp.gatsbyImageData} />
+            <GatsbyImage image={featuredImg.childImageSharp.gatsbyImageData} alt={title}/>
             <div className={styles.row}>
             <Link class={styles.link} to={github}>Github <FaLink/></Link>
             <Link class={styles.link} to={live_version}>Live Demo <FaLink/></Link>

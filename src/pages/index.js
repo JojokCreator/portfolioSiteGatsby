@@ -25,8 +25,7 @@ export default function Home({}) {
       <div id="section2" className={styles.container}>
         <h2>Hello</h2>
         <h3 className={styles.text}>
-          "I am Joe, from the UK. I build the web. From simple static
-          pages to full stack sites with databases.
+          "I am Joe, from the UK. I build things for the web. From simple static pages to full stack sites with databases.
         </h3>
       </div>
 
